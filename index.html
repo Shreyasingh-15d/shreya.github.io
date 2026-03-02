@@ -1,80 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <title>Shreya Singh | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Card</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="icon" type="image/x-icon" href="favicon.png">
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background-color: #0a192f;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+        }
+
+        section {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #0a192f;
+            border-bottom: 2px solid #0a192f;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #0a192f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="contact-card">
-        <div class="left-column">
-            <div class="profile">
-                <img src="KrishImg.jpeg" alt="Profile Picture" class="profile-img">
-                <div class="profile-overlay">
-                    <p class="name">Krish Kumar</p>
-                    <p class="tagline">CcpC</p>
-                </div>
-            </div>
-        </div>
-        <div class="right-column">
-            <div class="box">
-                <h1>Krish Kumar</h1>
-                <h5>Sophomore at Central University of Jharkhand </h5>
-                <h4>Ranchi, Jharkhand, India</h4>
-                <h3>CcpC, CUJ</h3>
-            </div>
-            <div class="box">
-                <p class="contact">Phone: <span class="formate" id="phone">+91 9661611105</span></p>
-                <p class="contact">Personal Email: <span class="formate" id="personal-email">imkkrish05@gamil.com</span></p>
-                <p class="contact">College Email: <span class="formate" id="college-email">krish.22190503027@cuj.ac.in</span></p>
-                <div class="social-connection"><!--Section for social media connect as column grid-->
-                    <a href="https://www.linkedin.com/in/imkkrish/" target="_blank" class="social-link linkedin">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://www.instagram.com/imk_krish/" target="_blank" class="social-link instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://github.com/Imkkrish" target="_blank" class="social-link github">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="box">
-                <h3>Experience:</h3>
-                <div class="box">
-                    <ul>
-                        <li><p><span id="exp">
-                            Founding Member CcpC.</span><br></li>
-                            Skills:
-                            <ol>
-                                <li>Management</li>
-                                <li>Leardership</li>
-                                <li>Programming</li>
-                                <li>Frontend Web Development</li>
-                            </ol>
-                        </span></p></ul>
-                    </div>
-                    <div class="box">
-                        <ul>
-                            <p>
-                            <li>Class Coordinator T&P Cell Cuj.</li>
-                            </p>
-                        </ul>
-                    </div>
-            </div>
-            <div class="box">
-                <h3>Education</h3>
-                <ul>
-                    <li><p><span id="edu">B.Tech & M.Tech in CSE,CUJ</span></p></li>
-                    <li><p><span id="edu">intermediate, PCM with CS, DAV Public School Bokaro</span></p></li>
-                    <li><p><span id="edu">Matriculation, St. Francis School B.Deoghar</span></p></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
-   </body>
+
+<header>
+    <img src="shreya.jpg" alt="Shreya Singh">
+    <h1>Shreya Singh</h1>
+    <p>Integrated B.Tech + M.Tech | Computer Science & Engineering</p>
+    <p>Central University of Jharkhand (2024 – 2029)</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        Motivated Computer Science student with strong interest in software development 
+        and web technologies. Passionate about problem-solving and continuously learning 
+        new technologies to contribute to impactful projects.
+    </p>
+</section>
+
+<section>
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><b>Programming:</b> C, C++, Python</li>
+        <li><b>Web Development:</b> HTML, CSS, Node.js</li>
+        <li><b>Core Concepts:</b> OOP, Data Structures</li>
+        <li><b>Tools:</b> GitHub, VS Code, Google Colab</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Experience</h2>
+    <ul>
+        <li><b>Virtual Intern – Ethical Hacking & Penetration Testing</b> (C-DAC Noida, March–April 2025)</li>
+        <li>Completed structured training in ethical hacking and vulnerability assessment.</li>
+        <li>Performed basic network scanning and security analysis tasks.</li>
+        <li><b>Smart India Hackathon 2025 – Participant</b></li>
+        <li>Collaborated in a team-based national-level software solution competition.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Project</h2>
+    <p><b>DevTrack – Student Productivity Dashboard</b></p>
+    <p>
+        Designed and developed a multi-page React application for task management 
+        with persistent storage and basic analytics visualization.
+    </p>
+</section>
+
+<section>
+    <h2>Certificates & Workshops</h2>
+    <ul>
+        <li>Ethical Hacking & Penetration Testing – C-DAC Noida</li>
+        <li>Generative AI/ML Workshop – IIT Dhanbad</li>
+        <li>Web Development Workshop – Central University of Jharkhand</li>
+        <li>BrandSkulpt Challenge – IIT Delhi (ECOn 2025)</li>
+        <li>National Technical Seminar – CSI</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: shreyasingh36364@gmail.com</p>
+    <p>Phone: +91 8434012121</p>
+    <p>LinkedIn: https://www.linkedin.com/in/shreya-singh-55781b31a/</p>
+</section>
+
+<footer>
+    © 2026 Shreya Singh | Portfolio Website
+</footer>
+
+</body>
 </html>
